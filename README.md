@@ -11,7 +11,7 @@ npm install amqp-pubsub
 
 Publisher
 
-```
+```javascript
 var amqp = require('amqp');
 var pubsub = require('amqp-pubsub');
 
@@ -26,8 +26,7 @@ connection.on('ready', function() {
 
 Subscriber
 
-```
-
+```javascript
 var amqp = require('amqp');
 var pubsub = require('../');
 
